@@ -51,7 +51,7 @@ app.post('/api/messages', async (req, res) => {
 });
 
 //启动服务器
-const PORT = process.env.PORT || 443;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
